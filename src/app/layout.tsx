@@ -11,7 +11,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => (
   <html lang="en">
     <body className="min-h-screen bg-gray-100">
-      {/* Navbar bileşeni */}
+    <Navbar/>
      
       <div className="flex">
         {/* Sidebar bileşeni */}
